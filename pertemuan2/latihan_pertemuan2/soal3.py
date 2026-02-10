@@ -16,18 +16,18 @@ kelas_B = {"Struktur Data", "Machine Learning", "AI", "Cloud Computing"}
 kelas_A = {"Struktur Data", "Basis Data", "AI", "Pemrograman Web"}
 kelas_B = {"Struktur Data", "Machine Learning", "AI", "Cloud Computing"}
 
-matkul_sama = kelas_A.intersection (kelas_B)
+matkul_sama = kelas_A.intersection (kelas_B) #intersection(kelas_B) akan menampilkan mana saja yang nilainya sama antara kelas_A dan kelas_B
 print (matkul_sama)
 
 # mata kuliah yang hanya diambil kelas A
 kelas_A = {"Struktur Data", "Basis Data", "AI", "Pemrograman Web"}
 kelas_B = {"Struktur Data", "Machine Learning", "AI", "Cloud Computing"}
 
-print (kelas_A)
+print (kelas_A) #akan memunculkan mata kuliah yang diambil oleh kela_A
 
 # Seluruh mata kuliah yg diambil kelas A dan B
 kelas_A = {"Struktur Data", "Basis Data", "AI", "Pemrograman Web"}
 kelas_B = {"Struktur Data", "Machine Learning", "AI", "Cloud Computing"}
 
-kelas_A.update (kelas_B)
+kelas_A.update (kelas_B) #kelas_B akan ditambahkan ke kelas_A sehingga akan menampilkan mata kuliah seluruhnya
 print (kelas_A)

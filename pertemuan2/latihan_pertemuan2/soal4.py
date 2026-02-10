@@ -24,9 +24,19 @@ mahasiswa = {
              }
 }
 # Menampilkan nama mahasiswa yang IPK diatas 3.5
+for x in mahasiswa: #unutk setiap x di dict mahasiswa
+    if (mahasiswa[x]["ipk"]) > 3.5: #jika IPK > 3.5
+        print(mahasiswa[x]["nama"]) #menampilkan nama yang memiliki IPK >3.5
 
 # Hitung rata rata
+jumlah = 0 #untuk menyimpan total IPK
+hitung = 0 #untuk menyimpan jumlah mahasiswa
+for x in mahasiswa : #untuk setiap x pada dict mahasiswa
+    jumlah = jumlah + (mahasiswa[x]["ipk"]) #perulangan untuk menjumlahkan IPK
+    hitung = hitung + 1 #menambahkan IPK ke variabel jumlah
+    rata = jumlah / hitung #menghitung rata - rata
+print (rata) #menampilkan rata arat
 
 # tambahkan satu data
-mahasiswa ["A004"] = {"nama": "Najwa", "prodi": "Informatika", "ipk": 4.00}
+mahasiswa ["A004"] = {"nama": "Najwa", "prodi": "Informatika", "ipk": 4.00} #menambahkan data dict baru
 print (mahasiswa)

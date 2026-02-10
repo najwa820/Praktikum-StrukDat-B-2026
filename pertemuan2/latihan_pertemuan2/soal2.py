@@ -7,11 +7,11 @@ mahasiswa = ("A001", "Budi", "Informatika")
 '''
 
 # Menampilkan nama
-mahasiswa = ("A001", "Budi", "Informatika")
-print (mahasiswa[1])
+mahasiswa = ("A001", "Budi", "Informatika") #tuple bernama mahasiswa yang berisi nama, nim, dan prodi
+print (mahasiswa[1]) #menampilkan index ke-1 pada tuple
 
 # Menampilkan isi tuple
-for x in mahasiswa:
+for x in mahasiswa: #untuk setiap x pada tuple mahasiswa
     print (x)
 
 # Alasan kenapa tuple tidak bisa diubah

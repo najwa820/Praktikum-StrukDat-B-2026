@@ -11,22 +11,23 @@ angka = [10, 20, 30, 40, 50]
 angka = [10, 20, 30, 40, 50]
 
 # Tambah 60 ke list
-angka.append (60)
-print (angka)
+angka.append (60) #menggunakan append(60) untuk menambahkan ke list
+print (angka)  #menampilkan output
 
 # Hapus angka 20 dari list
-angka.remove (20)
+angka.remove (20) #menggunakan remove(20) untuk menghapus nilaii 20 dari list
 print (angka)
 
 # Menampilkan dari tinggi ke rendah
-angka.sort(reverse = True)
+angka.sort(reverse = True) #menggunakan sort(), karena dari tinggi ke renda maka menggunakan (reverse = True)
 print (angka)
 
 # Hitung rata-rata
-jumlah = 0
-total = 0
-for x in angka:
-    jumlah += x
-    total += 1
-    rata = jumlah / total
+jumlah = 0 #menyimpan jumlah angka yang dimulai dari 0
+total = 0 #menyimpan total yang dimulai dari 0
+
+for x in angka: #menggunakan perulangan for untuk menjumlahkan angka
+    jumlah += x #jumlah akan bertambah setiap elemen x
+    total += 1 #total akan bertambah 1
+    rata = jumlah / total #operasi untuk menghitung rata-rata
 print (rata)
