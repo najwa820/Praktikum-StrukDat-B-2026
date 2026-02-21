@@ -2,7 +2,6 @@
 #agar punya struktur yang clear, mudah dibaca, dan di debug
 #oop ga lepas dari class (cetak biru) dan objek (hasil dari blue print)
 
-
 #__init__ method
 class Person:
   def __init__(self, name, age):  #self menunjuk ke objek yang baru dibuat
@@ -39,7 +38,7 @@ print(s1.grade)
 s1.grade = "B"
 print(s1.grade)
 
-#COntoh 4
+#Contoh 4
 class Rectangle:
   def __init__(self, width, height):
     self.width = width
