@@ -13,3 +13,40 @@ p1 = Person("Emil", 36)
 
 print(p1.name)
 print(p1.age)
+
+#Contoh 2
+class Person:
+  def __init__(self, name):
+    self.name = name
+
+p1 = Person("Tobias")
+
+p1.age = 25
+p1.city = "Oslo"
+
+print(p1.name)
+print(p1.age)
+print(p1.city)
+
+#Contoh 3
+class Student:
+  def __init__(self, name, grade):
+    self.name = name
+    self.grade = grade
+
+s1 = Student("Anna", "A")
+print(s1.grade)
+s1.grade = "B"
+print(s1.grade)
+
+#COntoh 4
+class Rectangle:
+  def __init__(self, width, height):
+    self.width = width
+    self.height = height
+
+  def area(self):
+    return self.width*self.height
+
+r1 = Rectangle(5, 3)
+print(r1.area())
