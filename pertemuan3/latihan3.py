@@ -13,10 +13,10 @@ class Liburan:
         self.destinasi = destinasi
         self.tahun = tahun
 
-    def suhu(self):
+    def suhu(self):         # Method
         print("disini panas " + self.kota)
 
-    def makanan(self):
+    def makanan(self):      # Method
         print("makanan khas nya enak " + self.kota)
 
 # object dari class Liburan
