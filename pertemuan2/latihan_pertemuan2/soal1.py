@@ -18,9 +18,11 @@ print (angka)  #menampilkan output
 angka.remove (20) #menggunakan remove(20) untuk menghapus nilaii 20 dari list
 print (angka)
 
-# Menampilkan dari tinggi ke rendah
-angka.sort(reverse = True) #menggunakan sort(), karena dari tinggi ke renda maka menggunakan (reverse = True)
-print (angka)
+# Menampilkan tertinggi dan terendah
+tertinggi = max(angka)
+terendah = min(angka)
+print (tertinggi)
+print(terendah)
 
 # Hitung rata-rata
 jumlah = 0 #menyimpan jumlah angka yang dimulai dari 0
@@ -31,3 +33,6 @@ for x in angka: #menggunakan perulangan for untuk menjumlahkan angka
     total += 1 #total akan bertambah 1
     rata = jumlah / total #operasi untuk menghitung rata-rata
 print (rata)
+
+# menampilkan seluruhnya setelah perubahan
+print(angka)

@@ -20,10 +20,11 @@ matkul_sama = kelas_A.intersection (kelas_B) #intersection(kelas_B) akan menampi
 print (matkul_sama)
 
 # mata kuliah yang hanya diambil kelas A
-kelas_A = {"Struktur Data", "Basis Data", "AI", "Pemrograman Web"}
-kelas_B = {"Struktur Data", "Machine Learning", "AI", "Cloud Computing"}
+print(kelas_A)
 
-print (kelas_A) #akan memunculkan mata kuliah yang diambil oleh kela_A
+#yang benar
+difference = kelas_A.difference(kelas_B)
+print(difference)
 
 # Seluruh mata kuliah yg diambil kelas A dan B
 kelas_A = {"Struktur Data", "Basis Data", "AI", "Pemrograman Web"}
